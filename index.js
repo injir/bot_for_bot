@@ -233,7 +233,7 @@ if(config.has("option.token")){
 			$.routeTo('/start');
 		}
 		else{
-			creator.SendPhoneKeyboard($.chatId,'Укажите телефон или email',()=>{
+			creator.SendPhoneKeyboard($.chatId,'Укажите телефон',()=>{
 				
 				$.waitForRequest(($) => {
 
